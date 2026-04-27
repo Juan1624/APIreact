@@ -46,7 +46,7 @@ export default function Detalle() {
       <p><strong>Vehículos:</strong> {personaje.vehicles.length}</p>
 
       <button onClick={guardarFavorito}>
-        ⭐ Agregar a favoritos
+         Agregar a favoritos
       </button>
     </div>
   );

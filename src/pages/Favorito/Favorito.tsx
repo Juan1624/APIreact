@@ -29,7 +29,7 @@ export default function Favorito() {
           <p>{f.name}</p>
 
           <button onClick={() => eliminarFavorito(f.uid)}>
-            ❌ Quitar
+             Quitar
           </button>
         </div>
       ))}
